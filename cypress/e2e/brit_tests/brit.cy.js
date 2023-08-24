@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
-describe("BRIT Insurance ", () => {
+describe("BRIT Insurance Tests", () => {
+  
   it("should search IFRS 17 and get results", () => {
     cy.visit("https://www.britinsurance.com/");
     cy.get("#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll").click();
